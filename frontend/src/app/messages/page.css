@@ -1,0 +1,11 @@
+.chat-container {
+  @media (max-width: 1024px) {
+    height: 450px;
+  }
+}
+
+.message-container {
+  @media (max-width: 1024px) {
+    height: 450px;
+  }
+}
