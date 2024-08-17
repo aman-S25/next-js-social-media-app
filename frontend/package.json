@@ -5,10 +5,9 @@
   "type": "module",
   "scripts": {
     "dev": "next dev",
-    "build": "next build",
-    "start": "next start",
-    "lint": "next lint",
-    "node": "nodemon server.js"
+  "build": "next build",
+  "lint": "next lint",
+  "postinstall": "npm install --legacy-peer-deps"
   },
   "dependencies": {
     "@chatscope/chat-ui-kit-react": "^2.0.3",
